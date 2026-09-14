@@ -1,0 +1,807 @@
+[
+ {
+  "name": "Torino x Roma",
+  "teams": "ROMA & TORINO",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 4.5",
+    "Escanteios | Geral | Mais de 2.5",
+    "Escanteios | Geral | Menos de 15.5",
+    "Escanteios | A favor | Mais de 0.5",
+    "Escanteios | A favor | Menos de 14.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 11.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 2.5",
+    "Chutes_Gol | Geral | Menos de 13.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 10.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 10.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | Geral | Menos de 3.5",
+    "Cartões | A favor | Menos de 2.5",
+    "Cartões | Contra | Menos de 2.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | Geral | Menos de 6.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Leeds United x Newcastle United",
+  "teams": "LEEDS UNITED & NEWCASTLE UNITED",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Geral | Menos de 5.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 2.5",
+    "Escanteios | Geral | Menos de 18.5",
+    "Escanteios | A favor | Mais de 0.5",
+    "Escanteios | A favor | Menos de 12.5",
+    "Escanteios | Contra | Menos de 14.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 8.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 2.5",
+    "Chutes_Gol | Geral | Menos de 15.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 8.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | A favor | Menos de 9.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 2.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 8.5",
+    "Cartões | Geral | Menos de 6.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 10.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 7.5"
+   ]
+  }
+ },
+ {
+  "name": "Como x Parma",
+  "teams": "COMO & PARMA",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 17.5",
+    "Escanteios | A favor | Mais de 0.5",
+    "Escanteios | A favor | Menos de 15.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 15.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 10.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 7.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 13.5",
+    "Chutes_Gol | A favor | Menos de 9.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Cartões | Geral | Menos de 4.5",
+    "Cartões | A favor | Menos de 2.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Menos de 7.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Villarreal x Real Betis",
+  "teams": "VILLARREAL & REAL BETIS",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 5.5",
+    "Gols | Contra | Menos de 5.5",
+    "Escanteios | Geral | Mais de 3.5",
+    "Escanteios | Geral | Menos de 18.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 15.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Mais de 0.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 16.5",
+    "Chutes_Gol | A favor | Menos de 10.5",
+    "Chutes_Gol | Contra | Menos de 10.5"
+   ],
+   "1º tempo": [
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 10.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Menos de 10.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 11.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 10.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Inter x Udinese",
+  "teams": "INTER & UDINESE",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 15.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 11.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 10.5",
+    "Cartões | A favor | Menos de 7.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 17.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 13.5",
+    "Chutes_Gol | Contra | Menos de 8.5"
+   ],
+   "1º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 10.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | Geral | Menos de 4.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Menos de 7.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Menos de 11.5",
+    "Escanteios | A favor | Menos de 6.5",
+    "Escanteios | Contra | Menos de 8.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 11.5",
+    "Chutes_Gol | A favor | Menos de 9.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ]
+  }
+ },
+ {
+  "name": "Bahia x Remo",
+  "teams": "REMO & BAHIA",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | A favor | Mais de 0.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 17.5",
+    "Cartões | Geral | Mais de 1.5",
+    "Cartões | Geral | Menos de 10.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 16.5",
+    "Chutes_Gol | A favor | Menos de 10.5",
+    "Chutes_Gol | Contra | Mais de 0.5",
+    "Chutes_Gol | Contra | Menos de 11.5"
+   ],
+   "1º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 10.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 10.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ]
+  }
+ },
+ {
+  "name": "America Mineiro x Sao Bernardo",
+  "teams": "SÃO BERNARDO & AMÉRICA MINEIRO",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 4.5",
+    "Escanteios | A favor | Menos de 12.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 13.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 8.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 17.5",
+    "Chutes_Gol | A favor | Menos de 12.5",
+    "Chutes_Gol | Contra | Mais de 0.5",
+    "Chutes_Gol | Contra | Menos de 10.5"
+   ],
+   "1º tempo": [
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 8.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 10.5",
+    "Cartões | Geral | Menos de 6.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 10.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 7.5"
+   ]
+  }
+ },
+ {
+  "name": "Botafogo Sp x Goias",
+  "teams": "GOIÁS & BOTAFOGO-SP",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 4.5",
+    "Escanteios | A favor | Menos de 12.5",
+    "Escanteios | Contra | Menos de 14.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Menos de 7.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 2.5",
+    "Chutes_Gol | Geral | Menos de 15.5",
+    "Chutes_Gol | A favor | Menos de 8.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 8.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 10.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 8.5",
+    "Chutes_Gol | Contra | Menos de 7.5"
+   ]
+  }
+ },
+ {
+  "name": "Banfield x Barracas Central",
+  "teams": "BANFIELD & BARRACAS CENTRAL",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Geral | Menos de 5.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 12.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 9.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 8.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 14.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 9.5",
+    "Chutes_Gol | Contra | Menos de 11.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Menos de 8.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 7.5"
+   ]
+  }
+ },
+ {
+  "name": "Instituto Cordoba x Estudiantes De Rio Cuarto",
+  "teams": "INSTITUTO DE CÓRDOBA & ESTUDIANTES DE RÍO CUARTO",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Geral | Menos de 5.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 15.5",
+    "Escanteios | A favor | Menos de 14.5",
+    "Escanteios | Contra | Menos de 9.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 10.5",
+    "Cartões | A favor | Menos de 6.5",
+    "Cartões | Contra | Menos de 7.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 13.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 5.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Chutes_Gol | Geral | Menos de 7.5",
+    "Chutes_Gol | A favor | Menos de 4.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 1.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Menos de 10.5",
+    "Escanteios | A favor | Menos de 9.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Menos de 7.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 4.5"
+   ]
+  }
+ },
+ {
+  "name": "Deportivo Riestra x Lanus",
+  "teams": "LANÚS & DEPORTIVO RIESTRA",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Geral | Menos de 5.5",
+    "Gols | A favor | Menos de 5.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 15.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Menos de 11.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Mais de 0.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 15.5",
+    "Chutes_Gol | A favor | Menos de 10.5",
+    "Chutes_Gol | Contra | Menos de 9.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 8.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 6.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Menos de 11.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Avai x Vila Nova",
+  "teams": "AVAÍ & VILA NOVA FC",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Contra | Menos de 5.5",
+    "Escanteios | Geral | Mais de 2.5",
+    "Escanteios | Geral | Menos de 18.5",
+    "Escanteios | A favor | Menos de 15.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 15.5",
+    "Cartões | Geral | Mais de 1.5",
+    "Cartões | A favor | Menos de 7.5",
+    "Cartões | Contra | Menos de 7.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 17.5",
+    "Chutes_Gol | A favor | Menos de 15.5",
+    "Chutes_Gol | Contra | Mais de 0.5",
+    "Chutes_Gol | Contra | Menos de 11.5"
+   ],
+   "1º tempo": [
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 9.5",
+    "Chutes_Gol | Contra | Menos de 10.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 2.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 12.5",
+    "Escanteios | A favor | Menos de 9.5",
+    "Escanteios | Contra | Menos de 9.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 7.5",
+    "Chutes_Gol | Contra | Menos de 8.5"
+   ]
+  }
+ },
+ {
+  "name": "Rio Ave x Cf Estrela Amadora",
+  "teams": "RIO AVE & CF ESTRELA AMADORA",
+  "tempos": {
+   "Tempo total": [
+    "Gols | Geral | Menos de 5.5",
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 18.5",
+    "Escanteios | A favor | Menos de 10.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 13.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 9.5",
+    "Cartões | A favor | Menos de 7.5",
+    "Cartões | Contra | Menos de 5.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 15.5",
+    "Chutes_Gol | A favor | Menos de 8.5",
+    "Chutes_Gol | Contra | Mais de 1.5",
+    "Chutes_Gol | Contra | Menos de 8.5"
+   ],
+   "1º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 6.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 2.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 6.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 11.5",
+    "Escanteios | A favor | Menos de 7.5",
+    "Escanteios | Contra | Menos de 8.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | A favor | Menos de 6.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 10.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ]
+  }
+ },
+ {
+  "name": "Sporting Braga x Estoril Praia",
+  "teams": "ESTORIL PRAIA & SPORTING BRAGA",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 5.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 1.5",
+    "Escanteios | Geral | Menos de 18.5",
+    "Escanteios | A favor | Menos de 11.5",
+    "Escanteios | Contra | Menos de 9.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | Geral | Menos de 10.5",
+    "Cartões | A favor | Menos de 5.5",
+    "Cartões | Contra | Menos de 7.5",
+    "Chutes_Gol | Geral | Mais de 2.5",
+    "Chutes_Gol | Geral | Menos de 14.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 8.5",
+    "Chutes_Gol | Contra | Menos de 8.5"
+   ],
+   "1º tempo": [
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 8.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 3.5",
+    "Cartões | Contra | Menos de 4.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 5.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Menos de 11.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Moreirense x Maritimo",
+  "teams": "MARÍTIMO & MOREIRENSE",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Mais de 4.5",
+    "Escanteios | Geral | Menos de 20.5",
+    "Escanteios | A favor | Menos de 13.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 13.5",
+    "Cartões | Geral | Mais de 1.5",
+    "Cartões | A favor | Menos de 7.5",
+    "Cartões | Contra | Menos de 7.5",
+    "Chutes_Gol | Geral | Mais de 3.5",
+    "Chutes_Gol | Geral | Menos de 13.5",
+    "Chutes_Gol | A favor | Mais de 0.5",
+    "Chutes_Gol | A favor | Menos de 9.5",
+    "Chutes_Gol | Contra | Mais de 0.5",
+    "Chutes_Gol | Contra | Menos de 10.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 10.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 8.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 2.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 8.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | Geral | Menos de 4.5",
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 12.5",
+    "Escanteios | A favor | Menos de 11.5",
+    "Escanteios | Contra | Menos de 7.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | A favor | Menos de 6.5",
+    "Cartões | Contra | Menos de 6.5",
+    "Chutes_Gol | Geral | Mais de 0.5",
+    "Chutes_Gol | Geral | Menos de 9.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ]
+  }
+ },
+ {
+  "name": "Club Leon x Atletico San Luis",
+  "teams": "CLUB LEÓN & ATLÉTICO SAN LUIS",
+  "tempos": {
+   "Tempo total": [
+    "Gols | A favor | Menos de 4.5",
+    "Gols | Contra | Menos de 5.5",
+    "Escanteios | Geral | Mais de 4.5",
+    "Escanteios | Geral | Menos de 15.5",
+    "Escanteios | A favor | Mais de 0.5",
+    "Escanteios | A favor | Menos de 11.5",
+    "Escanteios | Contra | Mais de 0.5",
+    "Escanteios | Contra | Menos de 14.5",
+    "Cartões | Geral | Mais de 0.5",
+    "Cartões | A favor | Menos de 6.5",
+    "Cartões | Contra | Menos de 8.5",
+    "Chutes_Gol | Geral | Mais de 2.5",
+    "Chutes_Gol | Geral | Menos de 16.5",
+    "Chutes_Gol | A favor | Menos de 11.5",
+    "Chutes_Gol | Contra | Menos de 10.5"
+   ],
+   "1º tempo": [
+    "Gols | Geral | Menos de 3.5",
+    "Gols | A favor | Menos de 2.5",
+    "Gols | Contra | Menos de 3.5",
+    "Escanteios | Geral | Mais de 0.5",
+    "Escanteios | Geral | Menos de 9.5",
+    "Escanteios | A favor | Menos de 5.5",
+    "Escanteios | Contra | Menos de 6.5",
+    "Cartões | Geral | Menos de 5.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Cartões | Contra | Menos de 3.5",
+    "Chutes_Gol | A favor | Menos de 6.5",
+    "Chutes_Gol | Contra | Menos de 6.5"
+   ],
+   "2º tempo": [
+    "Gols | A favor | Menos de 3.5",
+    "Gols | Contra | Menos de 4.5",
+    "Escanteios | Geral | Menos de 11.5",
+    "Escanteios | A favor | Menos de 8.5",
+    "Escanteios | Contra | Menos de 10.5",
+    "Cartões | A favor | Menos de 4.5",
+    "Chutes_Gol | Geral | Mais de 1.5",
+    "Chutes_Gol | Geral | Menos de 11.5",
+    "Chutes_Gol | A favor | Menos de 5.5",
+    "Chutes_Gol | Contra | Menos de 7.5"
+   ]
+  }
+ }
+]

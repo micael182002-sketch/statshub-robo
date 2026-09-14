@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Moreirense x Maritimo",
+  "metric": "CARTÕES",
+  "line": 1.5,
+  "url": "https://www.statshub.com/pt/fixture/moreirense-vs-maritimo-mu0qcp/364643"
+ },
+ {
+  "name": "Bahia x Remo",
+  "metric": "CARTÕES",
+  "line": 1.5,
+  "url": "https://www.statshub.com/pt/fixture/bahia-vs-remo-mu0qcg/366072"
+ },
+ {
+  "name": "America Mineiro x Sao Bernardo",
+  "metric": "ESCANTEIOS",
+  "line": 4.5,
+  "url": "https://www.statshub.com/pt/fixture/america-mineiro-vs-sao-bernardo-mu0qcg/366170"
+ },
+ {
+  "name": "Avai x Vila Nova",
+  "metric": "CARTÕES",
+  "line": 1.5,
+  "url": "https://www.statshub.com/pt/fixture/avai-vs-vila-nova-mu0qch/366165"
+ },
+ {
+  "name": "Club Leon x Atletico San Luis",
+  "metric": "ESCANTEIOS",
+  "line": 4.5,
+  "url": "https://www.statshub.com/pt/fixture/club-leon-vs-atletico-san-luis-mu0qcg/435964"
+ },
+ {
+  "name": "Botafogo Sp x Goias",
+  "metric": "ESCANTEIOS",
+  "line": 4.5,
+  "url": "https://www.statshub.com/pt/fixture/botafogo-sp-vs-goias-mu0qcg/366166"
+ }
+]

@@ -146,6 +146,11 @@ const L = s => { console.log(s); log.push(s); };
   }
 
   // --- 6. Email ---
+  // monta a lista COMPLETA de jogos (nao so o Top 7), em ordem cronologica,
+  // reaproveitando os blocos ja gerados em cards.html (mantem nome dos times,
+  // tags TT/1T/2T e a nota de arbitro exatamente como no relatorio de verdade).
+  const allGamesHtml = cardsHtmlToEmail(cardsHtml, meta);
+
   const dow = new Date().toLocaleDateString('pt-BR', { weekday: 'long' });
   const html = `
     <h2>Leitura de ${dow} (${todayISO()})</h2>
@@ -153,9 +158,33 @@ const L = s => { console.log(s); log.push(s); };
     ${checkHtml}
     <h3>Destaques de hoje (Top ${top7.length})</h3>
     <ol>${topHtml}</ol>
-    <p style="color:#888;font-size:.85em">Total: ${sweepList.length} jogos varridos, relatório completo em cards.html no computador.</p>
+    <h3>Todos os jogos com pick (${ranking.length}, ordem de horário)</h3>
+    ${allGamesHtml}
+    <p style="color:#888;font-size:.85em">Total: ${sweepList.length} jogos varridos.</p>
   `;
   await sendEmail(`Leitura de ${dow} — statshub`, html);
+
+  function cardsHtmlToEmail(html, meta) {
+    const arts = html.split('<article class="game">').slice(1);
+    const games = arts.map(a => {
+      const nameM = a.match(/class="teams">([^<]*)/);
+      const name = nameM ? nameM[1] : '?';
+      const nameKey = name.replace(' × ', ' x ');
+      const [liga, hora] = meta[nameKey] || ['', ''];
+      const picks = [...a.matchAll(/<span class="tempo">([^<]*)<\/span><span class="pick"><span class="p">([^<]*)<\/span>(?:\s*<span class="g">([^<]*)<\/span>)?/g)]
+        .map(m => `${m[1]} ${m[2]}${m[3] ? ' ' + m[3] : ''}`);
+      const refM = a.match(/class="ref">([^<]*)</);
+      const ref = refM ? refM[1] : null;
+      return { name, liga, hora, picks, ref };
+    });
+    games.sort((a, b) => {
+      const toMin = h => { const m = (h || '').match(/(\d{1,2}):(\d{2})/); return m ? (+m[1]) * 60 + (+m[2]) : 9999; };
+      return toMin(a.hora) - toMin(b.hora);
+    });
+    return '<ul style="padding-left:18px">' + games.map(g =>
+      `<li><b>${g.name}</b> <span style="color:#888">(${g.liga}, ${g.hora})</span><br>${g.picks.join(' · ')}${g.ref ? `<br><span style="color:#a67c00">${g.ref}</span>` : ''}</li>`
+    ).join('\n') + '</ul>';
+  }
 
   // --- 7. Salvar historico de hoje ---
   const historyDir = path.join(D, 'history');
