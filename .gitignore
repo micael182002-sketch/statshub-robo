@@ -2,3 +2,14 @@ node_modules/
 *.log
 varredor_result.json
 fixtures_raw.json
+.env.json
+package-lock.json
+fixtures_hoje.json
+fixtures_hoje_sweep.json
+meta.json
+ranking.json
+cards.html
+resultados_check.json
+run_*.log
+*.bak
+fx_*.json

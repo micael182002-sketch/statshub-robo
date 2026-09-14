@@ -4,6 +4,7 @@
   "private": true,
   "description": "Sweep automatizado do statshub.com para picks 20/20 (escanteio, cartao, gol, chutes no gol)",
   "dependencies": {
+    "nodemailer": "^10.0.9",
     "playwright": "^1.47.0"
   }
 }

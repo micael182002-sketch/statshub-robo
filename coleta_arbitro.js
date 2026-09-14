@@ -4,7 +4,7 @@
   Uso: node coleta_arbitro.js --fixtures fx_for_ref.json [--workers 6]
   Saída: arbitros.json = { "Nome A x Nome B": { name, avgCards } }
 */
-const { chromium } = require('playwright');
+const { chromium } = require('C:/Users/micae/OneDrive/Desktop/Vs Code/sgf/node_modules/playwright');
 const fs = require('fs');
 const path = require('path');
 const sleep = ms => new Promise(r => setTimeout(r, ms));

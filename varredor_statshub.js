@@ -4,7 +4,7 @@
        fx.json = [["Nome","substring-liga-minusculo","https://www.statshub.com/pt/fixture/.../ID"], ...]
   Saída: varredor.log  +  varredor_result.json  (no diretório atual)
 */
-const { chromium } = require('playwright');
+const { chromium } = require('C:/Users/micae/OneDrive/Desktop/Vs Code/sgf/node_modules/playwright');
 const fs = require('fs');
 const path = require('path');
 const OUT = __dirname;

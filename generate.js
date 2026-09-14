@@ -129,3 +129,4 @@ console.log('total games:', sortedGames.length, 'with pick:', present.length);
 console.log('dropped (no line above floor):', sortedGames.filter(g => gameCard(g) === '').map(g => g.name).join(', '));
 console.log('\n--- ranking auxiliar (nao decide sozinho o Top N, so ajuda) ---');
 ranking.forEach(r => console.log(r.name, '::', r.lineCount, 'linhas | maxEsc', r.maxEsc, '| maxCard', r.maxCard, '| maxSot', r.maxSot));
+fs.writeFileSync(path.join(D, 'ranking.json'), JSON.stringify(ranking, null, 1));

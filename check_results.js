@@ -5,7 +5,7 @@
        fx_check.json = [["Nome A x Nome B", url, "DD/MM/AA"], ...]  (data no formato do site)
   Saída: resultados_check.json = { "Nome": { GOLS: {home,away}, ESCANTEIOS: {...}, CARTÕES: {...} } }
 */
-const { chromium } = require('playwright');
+const { chromium } = require('C:/Users/micae/OneDrive/Desktop/Vs Code/sgf/node_modules/playwright');
 const fs = require('fs');
 const path = require('path');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
