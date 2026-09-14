@@ -152,11 +152,27 @@ const L = s => { console.log(s); log.push(s); };
   const allGamesHtml = cardsHtmlToEmail(cardsHtml, meta);
 
   const dow = new Date().toLocaleDateString('pt-BR', { weekday: 'long' });
+  const intro = `
+    <p style="color:#555">
+      Linhas <b>20/20</b>: bateram nos <b>últimos 20 jogos</b> de cada time, só contando jogos
+      da <b>mesma competição</b> do confronto de hoje (nunca "quase" — só fechado 20 de 20).
+      São todas <b>"Mais de"</b> — pensadas pra pegar <b>ao vivo</b>, esperando o jogo esfriar
+      (poucos escanteios/cartões/chutes até ali) pra odd inflar antes de entrar.
+    </p>
+    <p style="color:#555;font-size:.9em">
+      <b>no jogo</b> = soma dos dois times · <b>fazem/levam</b> = cada time por si (histórico
+      dele) · <b>sofrem ... do rival</b> = o que o adversário costuma produzir contra ele ·
+      <b>TT / 1º tempo / 2º tempo</b> = janela de tempo da linha · 🟨 = média de cartão do
+      árbitro (reforça a aposta quando ele é rigoroso).
+    </p>
+  `;
   const html = `
     <h2>Leitura de ${dow} (${todayISO()})</h2>
+    ${intro}
     <h3>Conferência de ontem</h3>
     ${checkHtml}
     <h3>Destaques de hoje (Top ${top7.length})</h3>
+    <p style="color:#888;font-size:.85em">Ranqueado por quantidade de linhas 20/20 e depois pelo maior teto de cartão/escanteio — não é curadoria manual, é regra automática.</p>
     <ol>${topHtml}</ol>
     <h3>Todos os jogos com pick (${ranking.length}, ordem de horário)</h3>
     ${allGamesHtml}
@@ -165,6 +181,7 @@ const L = s => { console.log(s); log.push(s); };
   await sendEmail(`Leitura de ${dow} — statshub`, html);
 
   function cardsHtmlToEmail(html, meta) {
+    const TEMPO_FULL = { TT: 'tempo total', '1T': '1º tempo', '2T': '2º tempo' };
     const arts = html.split('<article class="game">').slice(1);
     const games = arts.map(a => {
       const nameM = a.match(/class="teams">([^<]*)/);
@@ -172,7 +189,7 @@ const L = s => { console.log(s); log.push(s); };
       const nameKey = name.replace(' × ', ' x ');
       const [liga, hora] = meta[nameKey] || ['', ''];
       const picks = [...a.matchAll(/<span class="tempo">([^<]*)<\/span><span class="pick"><span class="p">([^<]*)<\/span>(?:\s*<span class="g">([^<]*)<\/span>)?/g)]
-        .map(m => `${m[1]} ${m[2]}${m[3] ? ' ' + m[3] : ''}`);
+        .map(m => `${m[2]}${m[3] ? ' ' + m[3] : ''} <span style="color:#999">(${TEMPO_FULL[m[1]] || m[1]})</span>`);
       const refM = a.match(/class="ref">([^<]*)</);
       const ref = refM ? refM[1] : null;
       return { name, liga, hora, picks, ref };
@@ -181,9 +198,11 @@ const L = s => { console.log(s); log.push(s); };
       const toMin = h => { const m = (h || '').match(/(\d{1,2}):(\d{2})/); return m ? (+m[1]) * 60 + (+m[2]) : 9999; };
       return toMin(a.hora) - toMin(b.hora);
     });
-    return '<ul style="padding-left:18px">' + games.map(g =>
-      `<li><b>${g.name}</b> <span style="color:#888">(${g.liga}, ${g.hora})</span><br>${g.picks.join(' · ')}${g.ref ? `<br><span style="color:#a67c00">${g.ref}</span>` : ''}</li>`
-    ).join('\n') + '</ul>';
+    return '<div>' + games.map(g =>
+      `<p style="margin:14px 0 4px"><b>${g.name}</b> <span style="color:#888">— ${g.liga}, ${g.hora}</span></p>
+       <ul style="margin:0 0 0 18px;padding:0">${g.picks.map(p => `<li>${p}</li>`).join('')}</ul>
+       ${g.ref ? `<p style="color:#a67c00;margin:4px 0 0 18px;font-size:.9em">${g.ref}</p>` : ''}`
+    ).join('\n') + '</div>';
   }
 
   // --- 7. Salvar historico de hoje ---
