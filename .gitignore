@@ -1,0 +1,4 @@
+node_modules/
+*.log
+varredor_result.json
+fixtures_raw.json

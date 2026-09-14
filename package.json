@@ -1,0 +1,9 @@
+{
+  "name": "statshub-robo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sweep automatizado do statshub.com para picks 20/20 (escanteio, cartao, gol, chutes no gol)",
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
