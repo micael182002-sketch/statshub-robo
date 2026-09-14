@@ -45,7 +45,7 @@ const FLOOR_TT = {
 };
 const FLOOR_HALF = {
   'Escanteios|Geral': 1.5, 'Escanteios|A favor': 1.5, 'Escanteios|Contra': 1.5,
-  'Cartões|Geral': 1.5, 'Cartões|A favor': 1.5, 'Cartões|Contra': 1.5,
+  'Cartões|Geral': 0.5, 'Cartões|A favor': 0.5, 'Cartões|Contra': 0.5,
   'Gols|Geral': 0.5, 'Gols|A favor': 0.5, 'Gols|Contra': 0.5,
   'Chutes_Gol|Geral': 1.5, 'Chutes_Gol|A favor': 1.5, 'Chutes_Gol|Contra': 1.5,
 };
